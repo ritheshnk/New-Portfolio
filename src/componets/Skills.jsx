@@ -55,7 +55,7 @@ const Skills = ()=>{
                             <img className="w-60 mx-auto" src={TailWind} alt="TailWind icon" />
                         </div>
                         <div className="">
-                            <img className="w-40 mx-auto py-4" src={TestNG} alt="TestNG icon" />
+                            <img className="w-40 mx-auto sm:py-4" src={TestNG} alt="TestNG icon" />
                         </div>
                        
                     </div>
