@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
+import React from "react";
+import NavBar from "./componets/NavBar";
+import Home from "./componets/Home";
+import About from "./componets/About";
+import AboutCopy from "./componets/About copy";
+import Skills from "./componets/Skills";
+import Contact from "./componets/Contact";
+import Experience from "./componets/Experience";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       {/* <VerticalTimeline>
+      {
+        VerticalTimelineElement.map(element=>{
+        return(
+          <VerticalTimelineElement>
+            
+          </VerticalTimelineElement>
+        );
+      })
+    }
+      
+    </VerticalTimeline>  */}
+        <NavBar />
+        <Home />
+        <About />
+        {/* <AboutCopy /> */}
+        <Skills />
+        <Experience />
+        <Contact />
     </div>
   );
 }
