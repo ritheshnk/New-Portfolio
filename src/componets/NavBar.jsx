@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import {Link} from 'react-scroll';
 const NavBar=()=>{
 
-    const[nav,setNav]=useState(false);
+    // const[nav,setNav]=useState(false);
     // const handleClick=()=>{
     //     setNav(!nav);
     // }
