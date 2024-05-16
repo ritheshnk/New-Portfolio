@@ -1,8 +1,11 @@
 import React,{useState} from "react";
 import Logo from "../assets/ritheshLogo.png";
-import {FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
+// import {FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
 // import { HiOutlineMail } from "react-icons/hi";
 // import {BsFillPersonalLinesFill} from 'react-icons/bs'
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import {Link} from 'react-scroll';
 const NavBar=()=>{
 
@@ -108,17 +111,20 @@ const NavBar=()=>{
                 <ul>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
                     <a href="https://www.linkedin.com/in/rithesh-nk-6ab7661a4" className="flex justify-between items-center w-full ">
-                        LinkedIn <FaLinkedin size={40}/>
+                        LinkedIn
+                        <LinkedInIcon sx={{ fontSize: 40 }} />
                     </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700">
                     <a href="https://github.com/ritheshnk" className="flex justify-between items-center w-full">
-                        Github <FaGithub size={40} />
+                        Github 
+                        <GitHubIcon sx={{ fontSize: 40 }}  />
                     </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-600">
                     <a href="https://www.instagram.com/nkrithesh/" className="flex justify-between items-center w-full">
-                        Instagram <FaInstagram  size={40}/>
+                        Instagram 
+                    <InstagramIcon sx={{ fontSize: 40 }} />
                     </a>
                     </li>
                     
