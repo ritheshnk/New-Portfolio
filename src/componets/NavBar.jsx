@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import Logo from "../assets/ritheshLogo.png";
 // import {FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
 // import { HiOutlineMail } from "react-icons/hi";
