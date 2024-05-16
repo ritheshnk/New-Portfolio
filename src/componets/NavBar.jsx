@@ -10,9 +10,9 @@ import {Link} from 'react-scroll';
 const NavBar=()=>{
 
     const[nav,setNav]=useState(false);
-    const handleClick=()=>{
-        setNav(!nav);
-    }
+    // const handleClick=()=>{
+    //     setNav(!nav);
+    // }
 
 
     return(
