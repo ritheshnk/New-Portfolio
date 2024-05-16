@@ -1,26 +1,26 @@
 import React,{useRef} from 'react';
-import {useReactToPrint} from 'react-to-print';
+// import {useReactToPrint} from 'react-to-print';
 
 
 const Home = () => {
-  const downloadPDF = () => {
-    // const pdfURL = 'rithesh-portfolio/src/assets/RitheshNK_Main_Resume.pdf';
+  // const downloadPDF = () => {
+  //   // const pdfURL = 'rithesh-portfolio/src/assets/RitheshNK_Main_Resume.pdf';
 
-    // Create a temporary anchor tag
-    const link = document.createElement('a');
-    // link.href = pdfURL;
-    link.download = "RitheshNK_Main_Resume.pdf";
+  //   // Create a temporary anchor tag
+  //   const link = document.createElement('a');
+  //   // link.href = pdfURL;
+  //   link.download = "RitheshNK_Main_Resume.pdf";
 
-    // Append the anchor to the body and trigger the click event
-    document.body.appendChild(link);
-    link.click();
+  //   // Append the anchor to the body and trigger the click event
+  //   document.body.appendChild(link);
+  //   link.click();
 
-    // Clean up
-    document.body.removeChild(link);
-  };
+  //   // Clean up
+  //   document.body.removeChild(link);
+  // };
 
 
-const componentRef=useRef();
+// const componentRef=useRef();
 
 // const handlePrint=useReactToPrint({
 //     content: ()=>componentRef.current,
