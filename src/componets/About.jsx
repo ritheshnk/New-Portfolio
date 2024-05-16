@@ -1,5 +1,3 @@
-import {react} from "react";
-
 const About=()=>{
     return(
         //sticky top-0
