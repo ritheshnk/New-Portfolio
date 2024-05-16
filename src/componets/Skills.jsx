@@ -1,9 +1,9 @@
 import React from "react";
 import Appium from "../assets/appiumNewLogo.png";
-import Boot from "../assets/boot.png";
+// import Boot from "../assets/boot.png";
 import Css from "../assets/css.png";
 import Cucumber from "../assets/cucumber-removebg-preview.png";
-import Github from "../assets/github.png";
+// import Github from "../assets/github.png";
 import Html from "../assets/html.png";
 import Js from "../assets/js.png";
 import TestNG from "../assets/testngLogo-removebg-preview.png";

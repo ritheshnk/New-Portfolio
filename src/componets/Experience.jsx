@@ -19,7 +19,7 @@ const Experience =()=>{
                         key={element.key}
                         date={element.date}
                         dateClassName='date'
-                        icon={<img src={ritheshLogo}></img>}
+                        icon={<img src={ritheshLogo}/>}
                         
                         >
                             <h2 className='vertical-timeline-element-title'>{element.title}</h2>

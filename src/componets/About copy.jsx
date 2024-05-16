@@ -1,5 +1,3 @@
-import {react} from "react";
-
 const AboutCopy=()=>{
     return(
         //sticky top-0

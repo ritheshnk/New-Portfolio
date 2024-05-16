@@ -1,15 +1,14 @@
 import React,{useRef} from 'react';
 import {useReactToPrint} from 'react-to-print';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 
 
 const Home = () => {
   const downloadPDF = () => {
-    const pdfURL = 'rithesh-portfolio/src/assets/RitheshNK_Main_Resume.pdf';
+    // const pdfURL = 'rithesh-portfolio/src/assets/RitheshNK_Main_Resume.pdf';
 
     // Create a temporary anchor tag
     const link = document.createElement('a');
-    link.href = pdfURL;
+    // link.href = pdfURL;
     link.download = "RitheshNK_Main_Resume.pdf";
 
     // Append the anchor to the body and trigger the click event
@@ -23,9 +22,9 @@ const Home = () => {
 
 const componentRef=useRef();
 
-const handlePrint=useReactToPrint({
-    content: ()=>componentRef.current,
-})
+// const handlePrint=useReactToPrint({
+//     content: ()=>componentRef.current,
+// })
 
 
 

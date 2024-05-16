@@ -1,8 +1,8 @@
 import React,{useState} from "react";
 import Logo from "../assets/ritheshLogo.png";
-import {FaBars,FaTimes,FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
-import { HiOutlineMail } from "react-icons/hi";
-import {BsFillPersonalLinesFill} from 'react-icons/bs'
+import {FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
+// import { HiOutlineMail } from "react-icons/hi";
+// import {BsFillPersonalLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll';
 const NavBar=()=>{
 
