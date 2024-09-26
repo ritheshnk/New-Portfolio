@@ -1,27 +1,23 @@
 import React, { useState, useEffect } from "react";
 
-const ExperienceTracker = () => {
-  // Set the initial state to 8 months of experience
+const About = () => {
+
+  const [currentMonth, setCurrentMonth] = useState(new Date().getMonth());
   const [experience, setExperience] = useState(8);
 
   useEffect(() => {
-    // 30 days in milliseconds
-    const monthInMilliseconds = 30 * 24 * 60 * 60 * 1000;
+    const checkMonth = () => {
+      const newMonth = new Date().getMonth();
+      if (newMonth !== currentMonth) {
+        setCurrentMonth(newMonth);
+        setExperience(prevExperience => prevExperience + 1);
+      }
+    };
 
-    // This will run every 30 days
-    const intervalId = setInterval(() => {
-      setExperience(prevExperience => prevExperience + 1);
-    }, monthInMilliseconds);
+    const intervalId = setInterval(checkMonth, 1000 * 60 * 60 * 24);
 
-    // Cleanup interval when the component is unmounted
     return () => clearInterval(intervalId);
-  }, []);
-
-  return experience;
-};
-
-const About = () => {
-  const experience = ExperienceTracker(); // Use the ExperienceTracker function to get the experience value
+  }, [currentMonth]);
 
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300 sticky top-0">
